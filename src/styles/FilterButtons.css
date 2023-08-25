@@ -1,0 +1,21 @@
+.filter__buttons {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin-bottom: 30px;
+}
+
+.filter__button {
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+.filter__button.selected {
+  background-color: #333;
+  color: #fff;
+}
